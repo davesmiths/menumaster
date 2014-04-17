@@ -1,0 +1,20 @@
+
+ul.menumasterTheme-tree {padding:0;}
+ul.menumasterTheme-tree ul {display:none;}
+ul.menumasterTheme-tree ul.open {display:block;}
+ul.menumasterTheme-tree li {display:block;}
+ul.menumasterTheme-tree li ul {padding:0 0 0 12px;}
+ul.menumasterTheme-tree a {display:block;position:relative;text-decoration:none;border-top:1px solid #ddd;cursor:pointer;}
+ul.menumasterTheme-tree span {display:block;}
+ul.menumasterTheme-tree .inner {padding:6px;}
+ul.menumasterTheme-tree .split .text {margin-right:28px;}
+ul.menumasterTheme-tree .togg {position:absolute;top:0;right:0;width:28px;}
+ul.menumasterTheme-tree a[href] .togg .inner {border-left:1px solid #ddd;}
+
+ul.menumasterTheme-tree a:hover {background:#eee;}
+ul.menumasterTheme-tree a:focus {background:#ff7;outline:1px dotted #000;}
+ul.menumasterTheme-tree a[href]:focus {outline:0;background:none;}
+ul.menumasterTheme-tree a[href]:focus .text {outline:1px dotted #000;background:#ff7;}
+ul.menumasterTheme-tree a[href]:focus .togg {background:none;}
+ul.menumasterTheme-tree a[href]:hover .togg:hover {background:#ccc;}
+ul.menumasterTheme-tree a[href] .togg:focus {background:#ff7;}
