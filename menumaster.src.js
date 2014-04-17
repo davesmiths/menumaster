@@ -3,17 +3,14 @@
 // 
 // 
 // 
-//  li
-//      a
-//          .ctrl.ctrl-link
-//              .text.text-item
 // 
-// li      a .ctrl.ctrl-togg        span.text.text-item
-//                                                         span.text.text-togg
+// The structure of the menu base:
 // 
 // li      div.item.item-split     a.ctrl.ctrl-link        span.text.text-item
 //                                 a.ctrl.ctrl-togg        span.text.text-togg
-// 
+// li      div.item.item-whole     a.ctrl.ctrl-link        span.text.text-item
+// li      div.item.item-whole     a.ctrl.ctrl-togg        span.text.text-item
+//                                                         span.text.text-togg 
 // 
 // 
 // 
